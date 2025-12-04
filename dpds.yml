@@ -1,14 +1,14 @@
 ---
 dataProductDescriptor: data-product-descriptor
 info:
-  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-lor-crime-atlas-source-aligned:1.0
+  fullyQualifiedName: urn:dpds:opendataproduct:dataproducts:berlin-crime-atlas-source-aligned:1.0
   name: Berlin LOR Crime Atlas (source-aligned)
   version: '1.0'
   domain: domain
   owner:
     id: Open Data product
     name: Open Data product
-  id: berlin-lor-crime-atlas-source-aligned
+  id: berlin-crime-atlas-source-aligned
   entityType:
   displayName: Berlin LOR Crime Atlas (source-aligned)
   description: Source-aligned data product providing Berlin LOR crime data
@@ -18,8 +18,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2012-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2012-00-csv
+      id: berlin-crime-atlas-2012-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2012-00-csv
       entityType:
       name: ''
       version:
@@ -31,8 +31,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2012-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2012-00-parquet
+      id: berlin-crime-atlas-2012-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2012-00-parquet
       entityType:
       name: ''
       version:
@@ -44,8 +44,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2013-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2013-00-csv
+      id: berlin-crime-atlas-2013-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2013-00-csv
       entityType:
       name: ''
       version:
@@ -57,8 +57,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2013-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2013-00-parquet
+      id: berlin-crime-atlas-2013-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2013-00-parquet
       entityType:
       name: ''
       version:
@@ -70,8 +70,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2014-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2014-00-csv
+      id: berlin-crime-atlas-2014-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2014-00-csv
       entityType:
       name: ''
       version:
@@ -83,8 +83,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2014-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2014-00-parquet
+      id: berlin-crime-atlas-2014-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2014-00-parquet
       entityType:
       name: ''
       version:
@@ -96,8 +96,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2015-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2015-00-csv
+      id: berlin-crime-atlas-2015-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2015-00-csv
       entityType:
       name: ''
       version:
@@ -109,8 +109,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2015-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2015-00-parquet
+      id: berlin-crime-atlas-2015-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2015-00-parquet
       entityType:
       name: ''
       version:
@@ -122,8 +122,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2016-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2016-00-csv
+      id: berlin-crime-atlas-2016-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2016-00-csv
       entityType:
       name: ''
       version:
@@ -135,8 +135,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2016-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2016-00-parquet
+      id: berlin-crime-atlas-2016-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2016-00-parquet
       entityType:
       name: ''
       version:
@@ -148,8 +148,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2017-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2017-00-csv
+      id: berlin-crime-atlas-2017-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2017-00-csv
       entityType:
       name: ''
       version:
@@ -161,8 +161,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2017-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2017-00-parquet
+      id: berlin-crime-atlas-2017-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2017-00-parquet
       entityType:
       name: ''
       version:
@@ -174,8 +174,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2018-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2018-00-csv
+      id: berlin-crime-atlas-2018-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2018-00-csv
       entityType:
       name: ''
       version:
@@ -187,8 +187,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2018-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2018-00-parquet
+      id: berlin-crime-atlas-2018-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2018-00-parquet
       entityType:
       name: ''
       version:
@@ -200,8 +200,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2019-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2019-00-csv
+      id: berlin-crime-atlas-2019-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2019-00-csv
       entityType:
       name: ''
       version:
@@ -213,8 +213,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2019-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2019-00-parquet
+      id: berlin-crime-atlas-2019-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2019-00-parquet
       entityType:
       name: ''
       version:
@@ -226,8 +226,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2020-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2020-00-csv
+      id: berlin-crime-atlas-2020-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2020-00-csv
       entityType:
       name: ''
       version:
@@ -239,8 +239,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2020-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2020-00-parquet
+      id: berlin-crime-atlas-2020-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2020-00-parquet
       entityType:
       name: ''
       version:
@@ -252,8 +252,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2021-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2021-00-csv
+      id: berlin-crime-atlas-2021-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2021-00-csv
       entityType:
       name: ''
       version:
@@ -265,8 +265,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2021-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2021-00-parquet
+      id: berlin-crime-atlas-2021-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2021-00-parquet
       entityType:
       name: ''
       version:
@@ -278,8 +278,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2022-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2022-00-csv
+      id: berlin-crime-atlas-2022-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2022-00-csv
       entityType:
       name: ''
       version:
@@ -291,8 +291,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2022-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2022-00-parquet
+      id: berlin-crime-atlas-2022-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2022-00-parquet
       entityType:
       name: ''
       version:
@@ -304,8 +304,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2023-00-csv
-      fullyQualifiedName: berlin-lor-crime-atlas-2023-00-csv
+      id: berlin-crime-atlas-2023-00-csv
+      fullyQualifiedName: berlin-crime-atlas-2023-00-csv
       entityType:
       name: ''
       version:
@@ -317,8 +317,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2023-00-parquet
-      fullyQualifiedName: berlin-lor-crime-atlas-2023-00-parquet
+      id: berlin-crime-atlas-2023-00-parquet
+      fullyQualifiedName: berlin-crime-atlas-2023-00-parquet
       entityType:
       name: ''
       version:
@@ -331,8 +331,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2012-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2012-00
+      id: berlin-crime-atlas-2012-00
+      fullyQualifiedName: berlin-crime-atlas-2012-00
       entityType:
       name: ''
       version:
@@ -344,8 +344,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2013-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2013-00
+      id: berlin-crime-atlas-2013-00
+      fullyQualifiedName: berlin-crime-atlas-2013-00
       entityType:
       name: ''
       version:
@@ -357,8 +357,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2014-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2014-00
+      id: berlin-crime-atlas-2014-00
+      fullyQualifiedName: berlin-crime-atlas-2014-00
       entityType:
       name: ''
       version:
@@ -370,8 +370,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2015-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2015-00
+      id: berlin-crime-atlas-2015-00
+      fullyQualifiedName: berlin-crime-atlas-2015-00
       entityType:
       name: ''
       version:
@@ -383,8 +383,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2016-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2016-00
+      id: berlin-crime-atlas-2016-00
+      fullyQualifiedName: berlin-crime-atlas-2016-00
       entityType:
       name: ''
       version:
@@ -396,8 +396,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2017-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2017-00
+      id: berlin-crime-atlas-2017-00
+      fullyQualifiedName: berlin-crime-atlas-2017-00
       entityType:
       name: ''
       version:
@@ -409,8 +409,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2018-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2018-00
+      id: berlin-crime-atlas-2018-00
+      fullyQualifiedName: berlin-crime-atlas-2018-00
       entityType:
       name: ''
       version:
@@ -422,8 +422,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2019-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2019-00
+      id: berlin-crime-atlas-2019-00
+      fullyQualifiedName: berlin-crime-atlas-2019-00
       entityType:
       name: ''
       version:
@@ -435,8 +435,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2020-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2020-00
+      id: berlin-crime-atlas-2020-00
+      fullyQualifiedName: berlin-crime-atlas-2020-00
       entityType:
       name: ''
       version:
@@ -448,8 +448,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2021-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2021-00
+      id: berlin-crime-atlas-2021-00
+      fullyQualifiedName: berlin-crime-atlas-2021-00
       entityType:
       name: ''
       version:
@@ -461,8 +461,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2022-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2022-00
+      id: berlin-crime-atlas-2022-00
+      fullyQualifiedName: berlin-crime-atlas-2022-00
       entityType:
       name: ''
       version:
@@ -474,8 +474,8 @@ interfaceComponents:
     - promises:
       expectations:
       obligations:
-      id: berlin-lor-crime-atlas-2023-00
-      fullyQualifiedName: berlin-lor-crime-atlas-2023-00
+      id: berlin-crime-atlas-2023-00
+      fullyQualifiedName: berlin-crime-atlas-2023-00
       entityType:
       name: ''
       version:

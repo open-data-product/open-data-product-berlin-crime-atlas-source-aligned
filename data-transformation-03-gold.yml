@@ -83,603 +83,603 @@ attribute_groups:
     - name: narcotics_offences
     - name: kieztaten
 input_ports:
-  - id: berlin-lor-crime-atlas-2012-00
+  - id: berlin-crime-atlas-2012-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2012-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2012-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2012-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2012-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2012-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2012-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2012-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2012-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2012-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2012-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2012-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2013-00
+  - id: berlin-crime-atlas-2013-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2013-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2013-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2013-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2013-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2013-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2013-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2013-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2013-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2013-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2013-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2013-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2014-00
+  - id: berlin-crime-atlas-2014-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2014-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2014-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2014-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2014-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2014-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2014-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2014-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2014-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2014-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2014-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2014-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2015-00
+  - id: berlin-crime-atlas-2015-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2015-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2015-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2015-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2015-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2015-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2015-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2015-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2015-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2015-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2015-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2015-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2016-00
+  - id: berlin-crime-atlas-2016-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2016-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2016-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2016-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2016-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2016-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2016-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2016-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2016-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2016-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2016-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2016-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2017-00
+  - id: berlin-crime-atlas-2017-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2017-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2017-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2017-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2017-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2017-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2017-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2017-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2017-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2017-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2017-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2017-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2018-00
+  - id: berlin-crime-atlas-2018-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2018-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2018-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2018-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2018-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2018-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2018-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2018-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2018-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2018-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2018-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2018-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2019-00
+  - id: berlin-crime-atlas-2019-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2019-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2019-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2019-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2019-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2019-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2019-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2019-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2019-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2019-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2019-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2019-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2020-00
+  - id: berlin-crime-atlas-2020-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2020-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2020-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2020-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2020-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2020-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2020-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2020-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2020-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2020-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2020-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2020-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2021-00
+  - id: berlin-crime-atlas-2021-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2021-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2021-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2021-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2021-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2021-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2021-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2021-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2021-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2021-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2021-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2021-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2022-00
+  - id: berlin-crime-atlas-2022-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2022-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2022-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2022-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2022-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2022-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
 
-      - source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2022-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2022-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2022-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2022-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2022-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2022-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-  - id: berlin-lor-crime-atlas-2023-00
+  - id: berlin-crime-atlas-2023-00
     files:
-      - source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2023-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-case-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2023-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-case-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2023-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-case-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2023-00-case-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-case-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2023-00-case-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-case-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-city.csv
+      - source_file_name: berlin-crime-atlas-2023-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-frequency-numbers-city.csv
         aggregate_by: "total"
         names: *city
-      - source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-districts.csv
+      - source_file_name: berlin-crime-atlas-2023-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-frequency-numbers-districts.csv
         aggregate_by: [ district_id ]
         names: *districts
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv
+      - source_file_name: berlin-crime-atlas-2023-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-frequency-numbers-forecast-areas.csv
         aggregate_by: [ forecast_area_id ]
         names: *forecast-areas
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }
           - { key: id, value: "9999", operation: does_not_start_with }
-      - source_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers.csv
-        target_file_name: berlin-lor-crime-atlas-2023-00-frequency-numbers-district-regions.csv
+      - source_file_name: berlin-crime-atlas-2023-00-frequency-numbers.csv
+        target_file_name: berlin-crime-atlas-2023-00-frequency-numbers-district-regions.csv
         names: *district-regions
         filters:
           - { key: id, value: "0000", operation: does_not_end_with }

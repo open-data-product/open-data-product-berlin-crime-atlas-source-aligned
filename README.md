@@ -1,15 +1,15 @@
-[![Issues](https://img.shields.io/github/issues/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned)](https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/issues)
+[![Issues](https://img.shields.io/github/issues/open-data-product/open-data-product-berlin-crime-atlas-source-aligned)](https://github.com/open-data-product/open-data-product-berlin-crime-atlas-source-aligned/issues)
 
 <br />
 <p align="center">
-  <a href="https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned">
+  <a href="https://github.com/open-data-product/open-data-product-berlin-crime-atlas-source-aligned">
     <img src="logo-with-text.png" alt="Logo" style="height: 80px; ">
   </a>
 
-  <h1 align="center">Berlin LOR Crime Atlas (source-aligned)</h1>
+  <h1 align="center">Berlin Crime Atlas (source-aligned)</h1>
 
   <p align="center">
-    Source-aligned data product providing Berlin LOR crime atlas data
+    Source-aligned data product providing Berlin crime atlas data
   </p>
 </p>
 
@@ -66,7 +66,7 @@ uv run main.py
 
 ## Roadmap
 
-See the [open issues](https://github.com/open-data-product/open-data-product-berlin-lor-crime-atlas-source-aligned/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/open-data-product/open-data-product-berlin-crime-atlas-source-aligned/issues) for a list of proposed features (and known issues).
 
 ## License
 

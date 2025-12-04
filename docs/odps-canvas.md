@@ -6,15 +6,12 @@
 
 ### Basic Information
 
-* categories: timeseries
 * description: Source-aligned data product providing Berlin LOR crime data
-* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-lor-population-source-aligned/refs/heads/main/logo-with-text.png
-* product ID: berlin-lor-crime-atlas-source-aligned
-* product series: Berlin Timeseries Series
+* logo URL: https://raw.githubusercontent.com/open-data-product/open-data-product-berlin-crime-atlas-source-aligned/refs/heads/main/logo-with-text.png
+* product ID: berlin-crime-atlas-source-aligned
 * status: active
 * tags: berlin, lor, crime
 * type: source-aligned
-* value proposition: Providing Berlin LOR crime atlas data
 * version: 1.0
 * visibility: public
 
